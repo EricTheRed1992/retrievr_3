@@ -50,7 +50,7 @@ public class MainActivity extends ActionBarActivity {
 
     }
     protected void onNewIntent() {
-        Toast.makeText(this, "NFC Shit received.", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "NFC signal received.", Toast.LENGTH_LONG).show();
         Intent intent = null;
         super.onNewIntent(intent);
         intent = new Intent(this, MainActivity.class);
